@@ -1,10 +1,9 @@
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "omniauth/honcho/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "omniauth-honcho"
-  spec.version       = Omniauth::Honcho::VERSION
+  spec.version       = "0.1.0"
   spec.authors       = ["Daniel Lopes"]
   spec.email         = ["daniel@knowyourcompany.com"]
 

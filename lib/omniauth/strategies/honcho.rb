@@ -1,4 +1,3 @@
-require "omniauth/honcho/version"
 require "omniauth-oauth2"
 
 module OmniAuth
