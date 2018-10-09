@@ -7,7 +7,7 @@ module OmniAuth
       option :name, "honcho"
 
       option :client_options, {
-        :site => "https://knowyourcompany.com",
+        :site => "http://honcho.test",
         :authorize_url => "/oauth/authorize"
       }
 
